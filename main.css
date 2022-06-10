@@ -1,10 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 body {
     margin: 0;
     padding: 0;
 }
 
+/* unvisited link */
+a:link {
+    color: rgb(239, 255, 13);
+  }
+  /* visited link */
+  a:visited {
+    color: rgb(255, 230, 0);
+  }
+  /* mouse over link */
+  a:hover {
+    color: rgb(243, 97, 12);
+  }
+  /* selected link */
+  a:active {
+    color: rgb(228, 253, 1);
+  }
 
+  
+/*header*/
 #header {
     background-color: #333232;
     display: flex;
@@ -17,29 +35,21 @@ body {
 .logo {
     width: 200px;
     height: 100px;
-    font-size: 6pt;
 }
 
 .titulo {
     color: #fff;
-    font-family: 'Lobster', cursive;
-    font-size: 50pt;
+    font-family: 'Courgette', cursive;
+    font-size: 5vw;
 }
 
 .menu {
     color: #fff;
-    font-family: 'Lobster', cursive;
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
-/*.header-left {
-    width: 50%;
-}
 
-.header-left img {
-    max-width: 150px;
-    margin-left: 30px;
-    margin-top: 15px;
-}*/
+/*body*/
 
 #body {
     color: #2f2e2e;
@@ -57,6 +67,32 @@ body {
     width: 100%;
     max-width: 400px;
 }
+
+#tabela {
+
+    border-collapse: collapse;
+    width: 65%;
+    font-size: 16pt;
+    border: 1px solid black;
+}
+
+.tr1 {
+    background-color: black;
+    text-align: left;
+}
+
+.classe {
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.dados {
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+/*footer*/
 
 #footer {
     background-color: #2f2e2e;
