@@ -55,11 +55,14 @@ a:link {
     color: #2f2e2e;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
+    position: relative;
 }
 
 #body h1 {
     text-align: center;
+    letter-spacing: 0,4cm;
 }
+
 
 .home-content {
     margin: 0 auto;
@@ -68,12 +71,22 @@ a:link {
     max-width: 400px;
 }
 
-#tabela {
+/* #formulario {
+    margin-left: 25%;
+    font-family: Arial, Helvetica, sans-serif
+} */
 
+#sobrenos {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#tabela {
     border-collapse: collapse;
-    width: 65%;
     font-size: 16pt;
-    border: 1px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .tr1 {
@@ -100,7 +113,7 @@ a:link {
     font-family: Arial, Helvetica, sans-serif;
     height: 50px;
     bottom: 0;
-    position:absolute;
+    position: absolute;
     width: 100%;
     text-align: center;
 }

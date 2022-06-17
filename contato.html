@@ -1,37 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Skar Veículos- Página Inicial</title>
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-        <!--Header-->
-        <div id="header">
-                <img src="logo.png" style="max-width:100%;height:auto;" class="logo">
-                <h1 class="titulo">Skar Veículos</h1>
-                <dl class="menu">
-                    <dt><a  href="index.html">Home</a></dt>
-                    <dt><a href="produtos.html">Estoque</a></dt>
-                    <dt><a href="sobre-nos.html">Sobre Nós</a></dt>
-                    <dt><a href="contato.html">Fale Conosco</a></dt>
-                </dl>
-        </div>
-        <!--Body-->
-        <div id="formulario">
-        <form name="faleconosco" method="post" id="formulario">
 
-                    <input type="submit" value="Enviar"> 
-                    <input type="reset" value="Limpar">
-        </form> 
-        </div>
-        <!--Footer-->
-        <div id="footer">
-            <p>Copyright &copy; 2022 - Todos os direitos reservados.</p>
-        </div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skar Veículos- Página Inicial</title>
+    <link rel="stylesheet" href="main.css">
+</head>
 
-        
-    </body>
+<body>
+    <!--Header-->
+    <div id="header">
+        <img src="logo.png" style="max-width:100%;height:auto;" class="logo">
+        <h1 class="titulo">Skar Veículos</h1>
+        <dl class="menu">
+            <dt><a href="index.html">Home</a></dt>
+            <dt><a href="produtos.html">Estoque</a></dt>
+            <dt><a href="sobre-nos.html">Sobre Nós</a></dt>
+            <dt><a href="contato.html">Fale Conosco</a></dt>
+        </dl>
+    </div>
+    <!--Body-->
+    <div id="body">
+        <h1>Fale Conosco</h1>
+        <form class="form">
+            <label>Nome completo: </label><br>
+            <input type="text" name="nome" style="height: 20px; width: 300px; font-size: 15px"><br><br>
+            <label>Email: </label><br>
+            <input type="email" name="email" style="height: 20px; width: 300px; font-size: 15px"><br><br>
+            <label>Telefone: </label><br>
+            <input type="tel" name="telefone" style="height: 20px; width: 200px; font-size: 15px"><br><br>
+            <label>Filial: </label><br>
+            <select name="filial" style="height: 25px; width: 150px; font-size: 15px">
+                <option selected disabled value=""></option>
+                <option>Cachoeirinha</option>
+                <option>Canoas</option>
+                <option>Gravataí</option>
+                <option>Novo Hamburgo</option>
+                <option>Porto Alegre</option>
+            </select><br><br>
+            <!--Checkbox-->
+            <label>Como nos conheceu? </label>
+            <input type="checkbox" name="conh1"> Instagram
+            <input type="checkbox" name="conh2"> Indicação
+            <input type="checkbox" name="conh3"> Auto Carro
+            <input type="checkbox" name="conh4"> Webmotors
+            <br /><br />
+            <!--Radio-->
+            <label>Deseja receber promoções por SMS?</label>
+            <input type="radio" id="sim" name="proms" value="proms">
+            <label for="proms">Sim</label>
+            <input type="radio" id="nao" name="promn" value="promn">
+            <label for="promn">Não</label><br><br>
+            <label>Escreva sua mensagem: </label><br />
+            <input type="text" name="nome" style="height: 200px; width: 300px; font-size: 15px"><br><br>
+            <br /><br />
+            <input type="submit" value="Enviar" style="width:60px;height:25px;">
+            <input type="reset" value="Limpar" style="width:60px;height:25px;">
+        </form>
+    </div>
+    <!--Footer-->
+    <div id="footer">
+        <p>Copyright &copy; 2022 - Todos os direitos reservados.</p>
+    </div>
+
+
+</body>
 
 </html>
